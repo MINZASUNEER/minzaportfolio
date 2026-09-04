@@ -6,7 +6,7 @@ export function Hero() {
       <div className="mx-auto max-w-6xl px-5 md:px-8">
         <div className="grid items-end gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           {/* Left: headline */}
-          <div className="order-2 lg:order-1">
+          <div className="order-1">
             <h1 className="font-display font-bold uppercase text-[18vw] leading-[0.82] tracking-tight sm:text-[14vw] lg:text-[9.5rem]">
               <span className="block">Fathima</span>
               <span className="block">Minza</span>
@@ -42,7 +42,7 @@ export function Hero() {
           </div>
 
           {/* Right: photo */}
-          <div className="relative order-1 lg:order-2">
+          <div className="relative order-2">
             <div
               className="pointer-events-none absolute -inset-6 rounded-full border border-border/60"
               aria-hidden="true"
