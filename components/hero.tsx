@@ -10,14 +10,18 @@ export function Hero() {
             <p className="mb-5 text-xs uppercase tracking-[0.28em] text-muted-foreground">
               Building software that solves real problems
             </p>
-            <h1 className="font-display text-[19vw] leading-[0.82] tracking-tight sm:text-[15vw] lg:text-[8.5rem]">
-              <span className="block">Software</span>
-              <span className="block text-muted-foreground/60">Developer</span>
+            <h1 className="font-display uppercase text-[15vw] leading-[0.84] tracking-tight sm:text-[12vw] lg:text-[7rem]">
+              <span className="block">Fathima</span>
+              <span className="block">Minza</span>
+              <span className="block">Suneer</span>
             </h1>
+            <p className="mt-4 font-display uppercase tracking-[0.22em] text-base text-muted-foreground/70 sm:text-lg lg:text-xl">
+              Software Developer
+            </p>
 
             <p className="mt-6 max-w-md text-pretty text-sm leading-relaxed text-muted-foreground">
-              I&apos;m Fathima Minza Suneer — a Computer Science Engineering student crafting
-              full-stack web apps and AI-powered tools with clean code and thoughtful design.
+              A Computer Science Engineering student crafting full-stack web apps and AI-powered
+              tools with clean code and thoughtful design.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
