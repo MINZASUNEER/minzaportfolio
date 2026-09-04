@@ -7,15 +7,12 @@ export function Hero() {
         <div className="grid items-end gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           {/* Left: headline */}
           <div className="order-2 lg:order-1">
-            <p className="mb-5 text-xs uppercase tracking-[0.28em] text-muted-foreground">
-              Building software that solves real problems
-            </p>
-            <h1 className="font-display uppercase text-[15vw] leading-[0.84] tracking-tight sm:text-[12vw] lg:text-[7rem]">
+            <h1 className="font-display font-bold uppercase text-[18vw] leading-[0.82] tracking-tight sm:text-[14vw] lg:text-[9.5rem]">
               <span className="block">Fathima</span>
               <span className="block">Minza</span>
               <span className="block">Suneer</span>
             </h1>
-            <p className="mt-4 font-display uppercase tracking-[0.22em] text-base text-muted-foreground/70 sm:text-lg lg:text-xl">
+            <p className="mt-5 font-display uppercase tracking-[0.28em] text-sm text-muted-foreground/70 sm:text-base">
               Software Developer
             </p>
 
