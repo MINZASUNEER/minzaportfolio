@@ -7,8 +7,11 @@ const CONTACTS = [
 ]
 
 const SOCIALS = [
-  { label: 'LinkedIn', href: '#' },
-  { label: 'GitHub', href: '#' },
+  {
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/minza-suneer-37987b292',
+  },
+  { label: 'GitHub', href: 'https://github.com/MINZASUNEER' },
 ]
 
 export function ContactFooter() {
@@ -72,6 +75,8 @@ export function ContactFooter() {
                 <a
                   key={social.label}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-xs uppercase tracking-[0.12em] text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
                 >
                   {social.label}
