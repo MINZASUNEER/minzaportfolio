@@ -1,33 +1,129 @@
-# minzaportfolio
+# Fathima Minza Suneer — Portfolio 🚀
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+A modern, responsive, and high-performance personal portfolio website built with **Next.js 16**, **React 19**, **TypeScript**, and **Tailwind CSS v4**. Showcasing engineering projects in full-stack web development, generative AI/LLMs, and systems development.
 
-## Built with v0
+---
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+## ✨ Features
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_2Mm50BkUFN2MmYrw3rz0Plax40t0)
+- ⚡ **Modern Next.js 16 & React 19** architecture with App Router
+- 🎨 **Sleek Dark Aesthetic** with glassmorphism, glowing ambient accents, and smooth micro-interactions
+- 📱 **Fully Responsive** across all screen sizes (mobile, tablet, desktop)
+- 🛠️ **Curated Project Showcase** highlighting AI/LLM engineering, full-stack systems, and team platforms
+- 🧩 **Interactive Capabilities & Tech Stack** grid with categorized tool badges
+- 📜 **Timeline Section** displaying education, internships, and certifications
+- 📬 **Direct Contact & Social Links** with quick email, phone, LinkedIn, and GitHub access
+- 🔍 **SEO & Analytics Ready** with metadata and `@vercel/analytics` integration
 
-## Getting Started
+---
 
-First, run the development server:
+## 🛠️ Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### **Frontend & Framework**
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+- **Library:** [React 19](https://react.dev/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **UI Utilities:** `clsx`, `tailwind-merge`, `class-variance-authority`, `@base-ui/react`
+
+### **Technologies & Tools Featured**
+- **Languages:** Python, C, C++, TypeScript, JavaScript, SQL, Dart
+- **Frameworks & Libraries:** FastAPI, Flask, React.js, Next.js, Flutter
+- **AI & Data:** Google Gemini, RAG Pipelines, ChromaDB, Sentence Transformers, OCR
+- **Databases & Cloud:** Supabase, MongoDB, SQLite, Vercel
+
+---
+
+## 📁 Project Structure
+
+```text
+minza/
+├── app/
+│   ├── favicon.ico
+│   ├── globals.css          # Global CSS, theme variables & Tailwind setup
+│   ├── layout.tsx           # Root layout with fonts & analytics
+│   └── page.tsx             # Main landing page assembling sections
+├── components/
+│   ├── site-header.tsx      # Navigation bar & social links
+│   ├── hero.tsx             # Hero section with portrait & headline
+│   ├── stats.tsx            # Quick stats & metrics banner
+│   ├── featured-work.tsx    # Project cards & tech tags
+│   ├── capabilities.tsx     # Engineering focus & capabilities
+│   ├── tools-education.tsx  # Tech stack badges & timeline
+│   ├── process.tsx          # Development philosophy & workflow
+│   ├── contact-footer.tsx   # Contact information & footer
+│   └── ui/                  # Reusable UI primitives
+├── public/                  # Static assets & images
+├── package.json
+└── tsconfig.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-## Learn More
+### Prerequisites
 
-To learn more, take a look at the following resources:
+Make sure you have Node.js (v18 or higher recommended) and a package manager installed:
+- [Node.js](https://nodejs.org/)
+- `npm` / `pnpm` / `yarn` / `bun`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/MINZASUNEER/minzaportfolio.git
+   cd minzaportfolio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   pnpm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
+
+4. **Open in browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the portfolio.
+
+---
+
+## 📦 Build & Production
+
+To build the application for production:
+
+```bash
+npm run build
+```
+
+To run the production build locally:
+
+```bash
+npm run start
+```
+
+---
+
+## 📬 Contact & Connect
+
+- **Name:** Fathima Minza Suneer
+- **Email:** [fathimaminzasuneer.mec@gmail.com](mailto:fathimaminzasuneer.mec@gmail.com)
+- **LinkedIn:** [linkedin.com/in/minza-suneer-37987b292](https://www.linkedin.com/in/minza-suneer-37987b292)
+- **GitHub:** [@MINZASUNEER](https://github.com/MINZASUNEER)
+- **Location:** Kochi, Kerala, India
+
+---
+
+## 📄 License
+
+This project is personal portfolio intellectual property. All rights reserved © 2026 Fathima Minza Suneer.
