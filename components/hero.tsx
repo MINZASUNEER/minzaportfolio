@@ -22,18 +22,20 @@ export function Hero() {
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <a
-                href="#work"
+                href="/minza-suneer-resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-xs font-medium uppercase tracking-[0.14em] text-background transition-opacity hover:opacity-90"
               >
-                View My Work
-                <ArrowUpRight className="size-4" />
+                View Resume
+                <Download className="size-4" />
               </a>
               <a
                 href="#contact"
                 className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-xs font-medium uppercase tracking-[0.14em] text-foreground transition-colors hover:bg-secondary"
               >
                 Get In Touch
-                <Download className="size-4" />
+                <ArrowUpRight className="size-4" />
               </a>
             </div>
           </div>
@@ -54,17 +56,6 @@ export function Hero() {
                 className="absolute inset-0 bg-gradient-to-t from-background via-background/10 to-transparent"
                 aria-hidden="true"
               />
-              <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
-                <div>
-                  <p className="text-[0.65rem] uppercase tracking-[0.2em] text-muted-foreground">
-                    Available for
-                  </p>
-                  <p className="font-display text-2xl leading-none">Internships</p>
-                </div>
-                <span className="flex size-2.5 items-center justify-center rounded-full bg-emerald-400">
-                  <span className="absolute size-2.5 animate-ping rounded-full bg-emerald-400/70" />
-                </span>
-              </div>
             </div>
           </div>
         </div>
